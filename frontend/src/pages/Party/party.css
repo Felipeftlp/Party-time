@@ -1,0 +1,41 @@
+.party h1,
+.party h3,
+.party p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0 2rem;
+}
+
+.services-container .service {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 3px 3px 6px #0003;
+  background-color: white;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.services-container .service img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
