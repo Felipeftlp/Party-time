@@ -1,0 +1,90 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Decoração",
+    "description": "Escolha a decoração para sua festa, e nós a montamos.",
+    "price": 1400,
+    "image_url": "https://images.unsplash.com/photo-1478146059778-26028b07395a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80"
+}
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/66b6c89fbafccdfb6f851fa7
+
+###
+DELETE http://localhost:3000/api/services/66b94422682b516fea3083f5
+
+###
+PUT http://localhost:3000/api/services/66b940d1682b516fea30836a
+Content-Type: application/json
+
+{
+    "name": "Cobertura midiática",
+    "description": "Cobertura completa do evento, com filmagens, fotos e criação de um album e documento online com os momentos marcantes",
+    "price": 2000,
+    "image_url": ""
+}
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "Alguma festa",
+    "author": "Algumas descrição",
+    "description": "Festa",
+    "budget": 12000,
+    "image_url": "https://img.freepik.com/fotos-gratis/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.jpg",
+    "services": [
+        {
+            "name": "Alguns serviço1",
+            "description": "Algumas descrição",
+            "price": 2600,
+            "image_url": "https://img.freepik.com/fotos-gratis/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.jpg"
+        },
+        {
+            "name": "Alguns serviço2",
+            "description": "Algumas descrição",
+            "price": 2600,
+            "image_url": "https://img.freepik.com/fotos-gratis/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.jpg"
+        }
+    ]
+}
+
+###
+GET http://localhost:3000/api/parties
+
+###
+GET http://localhost:3000/api/parties/66b6d130c8ca3e4aea80b128
+
+###
+DELETE http://localhost:3000/api/parties/66b6d089c8ca3e4aea80b126
+
+###
+PUT http://localhost:3000/api/parties/66b6d130c8ca3e4aea80b128
+Content-Type: application/json
+
+{
+    "title": "Alguma festa2.0",
+    "author": "Algumas descrição",
+    "description": "Festa",
+    "budget": 1000,
+    "image_url": "https://img.freepik.com/fotos-gratis/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.jpg",
+    "services": [
+        {
+            "name": "Alguns serviço1",
+            "description": "Algumas descrição",
+            "price": 2600,
+            "image_url": "https://img.freepik.com/fotos-gratis/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.jpg"
+        },
+        {
+            "name": "Alguns serviço2",
+            "description": "Algumas descrição",
+            "price": 2600,
+            "image_url": "https://img.freepik.com/fotos-gratis/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.jpg"
+        }
+    ]
+}
