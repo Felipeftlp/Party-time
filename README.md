@@ -1,4 +1,4 @@
-# PARTY TIME
+# Party Time
 
 ## Sobre o projeto
 
