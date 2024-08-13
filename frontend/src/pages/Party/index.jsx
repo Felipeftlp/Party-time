@@ -57,6 +57,7 @@ const Party = () => {
               <div className="service" key={service._id}>
                 <img src={service.image_url} alt={service.name} />
                 <p>{service.name}</p>
+                <p>{service.description}</p>
               </div>
             ))}
           </div>
