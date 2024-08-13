@@ -13,7 +13,7 @@
   border: 1px solid #cfcfcf;
   border-radius: 12px;
   padding: 2rem;
-  max-width: 900px;
+  max-width: 600px;
   margin: 10px auto;
 }
 
@@ -39,6 +39,10 @@
 .form-page .service {
   max-width: 29%;
   text-align: center;
+}
+
+.form-page .service img {
+  height: 100px !important; 
 }
 
 .form-page .service p {

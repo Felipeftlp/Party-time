@@ -41,6 +41,10 @@
   text-align: center;
 }
 
+.form-page .service img {
+  height: 100px !important; 
+}
+
 .form-page .service p {
   margin-bottom: 0rem;
 }
