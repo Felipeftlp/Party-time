@@ -8,10 +8,7 @@ Este projeto utiliza o Create-Vite e uma API em NodeJS com integração ao Mongo
 
 ## Instalação
 
-Você precisará ter o [NodeJS](https://nodejs.org) instalado na sua máquina, e, após isso, clonar este repositório:
-```sh
-  $ git clone https://github.com/maateusilva/youtube-context-api.git
-```
+Você precisará ter o [NodeJS](https://nodejs.org) instalado na sua máquina,
 
 Depois disso, instale as dependências da aplicação:
 ```sh
